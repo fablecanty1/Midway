@@ -2,7 +2,7 @@
 max-total-stocks-per-player: 250
 max-total-stocks-per-player-per-stock: 50
 random-event-frequency: 2
-dividend-frequency: 1440
+dividend-frequency: 60
 pay-offline-players: false
 broadcast-events: true
 broadcast-payouts: true
@@ -14,75 +14,72 @@ mysql:
   database: stargatemc
 events:
   '0':
-    message: The CEO of %s has died of a heart attack.  The replacement is looking to be a poor one.
-    effect: 40
+    message: The leader of %s has been assassinated, stability within %s will be impacted.
+    effect: 150
     up: false
     frequency: 50
   '1':
-    message: The CEO of %s has died of a heart attack.  The replacement looks like he is even better than his successor!
-    effect: 40
+    message: The leader of %s has stepped down from their command, allowing for a new, fresh leader to take over.
+    effect: 150
     up: true
     frequency: 50
   '2':
-    message: '%s has announced a new product to be released!  Speculation is high!'
-    effect: 8
+    message: '%s have identified a very rich mining vein on a previous unknown planet and are expanding their mining division!'
+    effect: 300
     up: true
     frequency: 250
   '3':
-    message: '%s has announced a new product to be released!  Speculation is high!'
-    effect: 8
+    message: '%s have lost a battle to hold one of their outposts from their enemies, losing a portion of their mining resources'
+    effect: 300
     up: false
     frequency: 250
   '4':
-    message: '%s''s announced product was a huge success, customers are extremely
-      satisfied!'
-    effect: 45
+    message: '%s'' crops have been harvested and the numbers are in... and theyre UP!'
+    effect: 450
     up: true
     frequency: 250
   '5':
-    message: '%s''s announced product was poorly made, causing poor customer satisfaction!'
-    effect: 45
+    message: '%s''s food crops have caused mass food poisioning among several worlds, leading to a lack of interest in what they have to offer!'
+    effect: 450
     up: false
     frequency: 250
   '6':
-    message: '%s had a bad quarter.'
-    effect: 30
+    message: '%s has had a bad time of it recently.'
+    effect: 300
     up: false
     frequency: 100
   '7':
-    message: '%s had a fantastic quarter.'
-    effect: 30
+    message: '%s has had a fantastic time of it recently.'
+    effect: 300
     up: true
     frequency: 100
   '8':
-    message: Everyone is speculating that %s is soon to come out with an extremely amazing product!
-    effect: 65
+    message: Speculation exists that %s will soon retake several previously conquered mining outposts.
+    effect: 650
     up: true
     frequency: 5
   '9':
-    message: '%s is on the brink of bankruptcy.'
-    effect: 65
+    message: '%s is on the brink of war with one of their enemies.'
+    effect: 650
     up: false
     frequency: 5
   '10':
-    message: '%s just invented the next best thing since sliced bread!'
-    effect: 400
+    message: '%s just brokered a temporary peace treaty with the four races!'
+    effect: 5000
     up: true
     frequency: 1
   '11':
-    message: '%s just went bankrupt.'
-    effect: 400
+    message: '%s have withdrawn from socio-economical relations with other races due to recent conflict.'
+    effect: 5000
     up: false
     frequency: 1
   '12':
-    message: '%s just announced that they are replacing their current CEO, who has
-      a bad reputation.'
-    effect: 25
+    message: '%s just annouced they are prepared to introduce a democratic leadership!'
+    effect: 2000
     up: true
     frequency: 25
   '13':
-    message: '%s just announced that they are replacing their current CEO, who everyone
-      loves.'
-    effect: 25
+    message: '%s just announced they are reintroducing a dictatorship due to public unrest.'
+    effect: 2000
     up: false
     frequency: 25
