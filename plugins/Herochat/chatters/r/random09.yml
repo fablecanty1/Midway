@@ -1,0 +1,11 @@
+name: random09
+activeChannel: Universe
+channels:
+- Local
+- Faction
+- Universe
+- World
+- Allies
+ignores: []
+muted: false
+autojoin: false

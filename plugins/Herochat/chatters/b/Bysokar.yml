@@ -1,0 +1,7 @@
+name: Bysokar
+activeChannel: Universe
+channels:
+- Universe
+ignores: []
+muted: false
+autojoin: false

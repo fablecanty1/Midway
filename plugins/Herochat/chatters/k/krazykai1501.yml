@@ -1,0 +1,11 @@
+name: krazykai1501
+activeChannel: Universe
+channels:
+- Local
+- Faction
+- Universe
+- World
+- Allies
+ignores: []
+muted: false
+autojoin: false
