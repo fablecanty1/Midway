@@ -470,7 +470,9 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 1
+  Tauri: 1
+  Tollan: 2
+  Ancient: 3
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 
