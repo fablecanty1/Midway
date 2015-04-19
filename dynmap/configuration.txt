@@ -50,7 +50,7 @@ components:
     # (optional) if true, player login IDs will be used for web chat when their IPs match
     use-player-login-ip: true
     # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
-    require-player-login-ip: false
+    require-player-login-ip: true
     # (optional) block player login IDs that are banned from chatting
     block-banned-player-chat: true
     # Require login for web-to-server chat (requires login-enabled: true)
@@ -66,7 +66,7 @@ components:
   #  # (Optional) if true, players that are crouching/sneaking will be hidden 
     hideifsneaking: false
     # If true, player positions/status is protected (login with ID with dynmap.playermarkers.seeall permission required for info other than self)
-    protected-player-info: false
+    protected-player-info: true
     # If true, hide players with invisibility potion effects active
     hide-if-invisiblity-potion: true
     # If true, player names are not shown on map, chat, list
