@@ -1,0 +1,14 @@
+name: Trade
+nick: T
+format: '{default}'
+password: ''
+color: dark_gray
+distance: 0
+shortcut: false
+verbose: true
+crossworld: false
+muted: false
+worlds: [ "MidwayStation" ]
+bans: []
+mutes: []
+moderators: []
