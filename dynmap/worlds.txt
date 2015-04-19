@@ -1,0 +1,88 @@
+worlds:
+-   name: MidwayStation
+    title: MidwayStation
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: t
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: cave
+        title: Cave
+        prefix: ct
+        perspective: iso_SE_60_lowres
+        shader: cave
+        lighting: default
+        mapzoomin: 3
+-   name: P2Y-321
+    title: P2Y-321/Overworld
+    enabled: false
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: t
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: cave
+        title: Cave
+        prefix: ct
+        perspective: iso_SE_60_lowres
+        shader: cave
+        lighting: default
+        mapzoomin: 3
+-   name: DIM88
+    title: DIM88/GeostationaryOrbit
+    enabled: false
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: t
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+    -   class: org.dynmap.hdmap.HDMap
+        name: cave
+        title: Cave
+        prefix: ct
+        perspective: iso_SE_60_lowres
+        shader: cave
+        lighting: default
+        mapzoomin: 3
