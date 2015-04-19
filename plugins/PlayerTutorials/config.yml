@@ -1,5 +1,5 @@
 #Change this to true to enable automatic tutorial playing when a new player joins the server.
-onJoin: true
+onJoin: false
 
 #Change this number to how long (in seconds) you want a player to be at each point
 timeBetweenTeleports: 5
